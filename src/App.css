@@ -1,0 +1,35 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+article {
+  z-index: 0;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 20vw;
+  border: 1px solid yellow;
+  box-shadow: 3px 3px 3px 1px rgba(255, 165, 0, 0.75);
+}
+article > h5 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+article > p,
+article > span,
+article > ul > li {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.game {
+  z-index: 9999;
+}
